@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,latin-ext');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background-image: url(../img/header_background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.header__text {
+    margin-bottom: 70px;
+    text-align: center;
+    color: #fff;
+}
+
+.zip_form {
+    width: 340px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px 0;
+    margin-bottom: -120px;
+    border: 1px solid #c4c4c4;
+}
+
+.zip_form__input {
+    display: block;
+    width: 270px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.zip_form__img {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.zip_form__text {
+    font-size: 15px;
+    color: #938e8e;
+    text-align: center;
+}
+
+.zip_form__button {
+    display: block;
+    margin: 0 auto;
+    width: 190px;
+    background: #227dd3;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.docsandpics_margin {
+    margin-top: 120px;
+}
+
+.dandp {
+
+    margin-top: 58px;
+    margin-bottom: 120px;
+
+}
+
+.dandp__img {
+
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.dandp__title {
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.dandp__text {
+
+    font-size: 14px;
+}
+
+.content {
+    background: #00c289;
+
+}
+
+.content__image {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 90px;
+}
+
+.content_top {}
+
+.content_top__heading {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 39px;
+    margin-bottom: 55px;
+
+}
+
+.content_top__text {
+    width: 60%;
+    margin: 0 auto;
+    color: #fff;
+    margin-bottom: 65px;
+    font-size: 14px;
+}
+
+.content_bottom {
+    margin: 0 auto;
+    width: 90%;
+
+
+}
+
+hr {
+    margin-top: 70px;
+    margin-bottom: 150px;
+    height: 3px;
+}
+
+.content_bottom_left {
+    display: block;
+    margin: 0 auto;
+}
+
+.content_bottom__image {
+    display: block;
+    margin: 0 auto;
+}
+
+.content_bottom__heading {
+    font-size: 39px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.content_bottom_text {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.content_bottom_btn {
+    font-weight: 700;
+    font-size: 27px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    margin-bottom: 135px;
+}
+
+iframe {
+    width:100%;
+}
+
+.map_submit {
+    width: 40%;
+    margin: 0 auto;
+}
+.map_form {
+    display: block;
+    margin: 0 auto;
+    margin-top: -500px;
+    width: 430px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 250px;
+    height:430px;
+    padding-top: 120px;
+}
+
+.map_form__input {
+    display: block;
+    width: 280px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #b9bbbe;
+    margin-bottom: 15px;
+    padding: 0 0 0 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.map_form__textarea {
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+    font-size: 14px;
+    color: #b9bbbe;
+    margin-bottom: 40px;
+    padding: 0 0 0 10px;
+    height: 85px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.map_form__btn {
+    display: block;
+    margin: 0 auto;
+    background-image: url(../img/submit.png);
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: 0px;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer {
+    background: #43a06d;
+    margin-top: 63px;
+}
+.footer_credits {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 30px;
+    margin-bottom: 0;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #b9bbbe;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #b9bbbe;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #b9bbbe;
+}
